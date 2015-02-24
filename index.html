@@ -1,0 +1,126 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Untitled</title>
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="author" href="humans.txt">
+        <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+    </head>
+    <body>
+    <div class="container">
+	    <nav class="navbar navbar-default">
+	    	<div class="container-fluid">
+	    		<div class="navbar-header">
+	    			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1">
+				        <span class="sr-only">Toggle navigation</span>
+				        <span class="icon-bar"></span>
+				        <span class="icon-bar"></span>
+				        <span class="icon-bar"></span>
+      				</button>
+	    			<a href="#" class="navbar-brand">Brand</a>
+	    		</div>
+	    	
+		    	<div class="collapse navbar-collapse" id="navbar-collapse-1">
+		    		<ul class="nav navbar-nav">
+		    			<li><a>Home</a></li>
+		    			<li><a>Pages</a></li>
+		    			<li><a>Shortcodes</a></li>
+		    			<li><a>Portfolio</a></li>
+		    			<li><a>Blog</a></li>
+		    			<li><a>Contact</a></li>
+		    		</ul>
+		    	</div>
+	    	</div>
+	    </nav>
+	    <div id="mon-carrousel" class="carousel">
+	    	<ol class="carousel-indicators">
+	    		<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+	    		<li data-target="#carousel-example-generic" data-slide-to="1"></li>
+	    		<li data-target="#carousel-example-generic" data-slide-to="2"></li>
+	    	</ol>
+	    	<div class="carousel-inner" role="listbox">
+	    		<div class="item active">
+	    			<img src="img/splash1.jpg" alt="">
+	    		</div>
+	    		<div class="item">
+	    			<img src="img/splash2.jpg" alt="">
+	    		</div>
+	    		<div class="item">
+	    			<img src="img/splash3.jpg" alt="">
+	    		</div>
+	    	</div>
+	    </div>
+	    <div class="row">
+	    	<div class="col-md-3">
+	    		<div class="media">
+	    			<div class="media-left">
+	    				<img src="img/media1.png" alt="">
+	    			</div>
+	    			<div class="media-body">
+	    				<h4 class="media-heading">Html5</h4>
+	    				<p>Lorem ipsum dolo</p>
+	    			</div>
+	    		</div>
+	    	</div>
+	    	<div class="col-md-3">
+	    		<div class="media">
+	    			<div class="media-left">
+	    				<img src="img/media1.png" alt="">
+	    			</div>
+	    			<div class="media-body">
+	    				<h4 class="media-heading">Html5</h4>
+	    				<p>antium magni! Ipsum suscipit ex impedit necessitatibus corrupti quas id architecto at, enim minima!</p>
+	    			</div>
+	    		</div>
+	    	</div>
+	    	<div class="col-md-3">
+	    		<div class="media">
+	    			<div class="media-left">
+	    				<img src="img/media1.png" alt="">
+	    			</div>
+	    			<div class="media-body">
+	    				<h4 class="media-heading">Html5</h4>
+	    				<p>Lorem ipsum dolor sit amet, cons</p>
+	    			</div>
+	    		</div>
+	    	</div>
+	    	<div class="col-md-3">
+	    		<div class="media">
+	    			<div class="media-left">
+	    				<img src="img/media1.png" alt="">
+	    			</div>
+	    			<div class="media-body">
+	    				<h4 class="media-heading">Html5</h4>
+	    				<p>ssitatibus corrupti quas id architecto at, enim minima!</p>
+	    			</div>
+	    		</div>
+	    	</div>
+    	</div>
+    	<div class="row">
+    		<div class="col-md-8">
+    			<h2>Want to work with us on a new or existing project?</h2>
+    			<h3>Request a quote and kickstart your idea</h3>
+    		</div>
+    		<div class="col-md-4">
+    			<button>Request a quote</button>
+    		</div>
+    	</div>
+    </div>
+    
+        
+        <script src="js/main.js"></script>
+    </body>
+    <script src="js/bootstrap.js"></script>
+    <script>
+    	$(document).ready(function(){
+    		$('.carousel').carousel({
+  interval: 2000,
+  pause:false
+});
+    	})
+    </script>
+</html>
