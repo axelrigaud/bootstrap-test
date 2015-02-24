@@ -7,6 +7,22 @@ body{
 	padding-left: 0;
 }
 
+/*navbar*/
+.navbar{
+	margin-bottom: 0;
+	height: 120px;
+	background: #323e4e;
+	color: #7f8b95;
+}
+.nav-vcenter{
+	position: relative;
+	top:35px;
+}
+.navbar-brand{
+	position: relative;
+	top:-14px;
+}
+
 .work-with-us{
 	background: #323e4e;
 	padding: 0;
