@@ -20,6 +20,21 @@ body{
 	top:-14px;
 }
 
+/*features*/
+.features{
+	margin-top: 32px;
+	margin-bottom: 24px;
+}
+.features .media{
+	margin-right: 37px;
+}
+
+.feature-icon{
+	font-size: 50px;
+	margin: 20px;
+}
+
+/*work with us*/
 .work-with-us{
 	background: #323e4e;
 	padding: 0;
