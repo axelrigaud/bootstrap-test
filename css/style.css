@@ -10,14 +10,11 @@ body{
 /*navbar*/
 .navbar{
 	margin-bottom: 0;
-	height: 120px;
+	padding:25px;
 	background: #323e4e;
 	color: #7f8b95;
 }
-.nav-vcenter{
-	position: relative;
-	top:35px;
-}
+
 .navbar-brand{
 	position: relative;
 	top:-14px;
