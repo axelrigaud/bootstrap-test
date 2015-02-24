@@ -63,3 +63,18 @@ body{
 .want-to-work-l2{
 	color:#7f8b95;
 }
+
+/*footer*/
+footer{
+	color:whitesmoke;
+	background-color: #3a3a3a;
+}
+footer h5{
+	font-size: 14px;
+	text-transform: uppercase;
+}
+
+footer p{
+	font-size: 12px;
+	color: dimgray;
+}
