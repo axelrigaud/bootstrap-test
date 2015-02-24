@@ -1,0 +1,21 @@
+.work-with-us{
+	background: #323e4e;
+	padding: 0;
+	margin: 0;
+	padding: 38px;
+}
+.quote-button{
+	height: 70px;
+
+}
+.want-to-work-l1,.want-to-work-l2{
+	padding:0;
+	margin: 0;
+}
+
+.want-to-work-l1{
+	color:#FFF;
+}
+.want-to-work-l2{
+	color:#7f8b95;
+}
