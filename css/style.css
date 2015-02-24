@@ -1,3 +1,12 @@
+body{
+	background-color: linen;
+}
+.container{
+	background-color: #FFF;
+	padding-right: 0;
+	padding-left: 0;
+}
+
 .work-with-us{
 	background: #323e4e;
 	padding: 0;
@@ -5,7 +14,13 @@
 	padding: 38px;
 }
 .quote-button{
-	height: 70px;
+	width: 160px;
+	height: 60px;
+	background-color: #de3a31;
+	color:#FFF;
+	font-size: 16px;
+	position: absolute;
+	top:17px;
 
 }
 .want-to-work-l1,.want-to-work-l2{
