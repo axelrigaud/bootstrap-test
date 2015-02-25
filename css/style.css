@@ -68,13 +68,58 @@ body{
 footer{
 	color:whitesmoke;
 	background-color: #3a3a3a;
+	padding: 30px 37px 45px 37px;
 }
 footer h5{
-	font-size: 14px;
+	font-size: 12px;
 	text-transform: uppercase;
+	margin-bottom: 20px;
+	letter-spacing: 1px;
 }
 
 footer p{
-	font-size: 12px;
+	font-size: 10px;
+	margin-bottom: 20px;
 	color: dimgray;
+}
+
+li{
+	display: inline-block;
+}
+
+.social-icon{
+	font-size: 24px;
+	color: dimgray;
+	text-decoration: none;
+	transition: color 0.4s;
+}
+
+.social-icon:hover{
+	text-decoration: none;
+	color:whitesmoke;
+}
+
+.social-list-item{
+	display: inline-block;
+	margin-right: 15px;
+}
+
+.social-list{
+	list-style-type:none;
+	padding: 0;
+}
+
+.news-title{
+	color:whitesmoke;
+	margin-bottom: 3px;
+}
+
+.news-date{
+	margin-bottom: 3px;
+}
+
+.news-hr{
+	margin-bottom: 15px;
+	margin-top: 3px;
+	border-color: dimgray;
 }
