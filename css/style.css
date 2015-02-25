@@ -64,6 +64,55 @@ body{
 	color:#7f8b95;
 }
 
+/*process and phases*/
+.process{
+	margin: 60px 40px;
+}
+
+.process-title{
+	color:darkslategray;
+	font-size: 20px;
+	margin: 20px 15px 25px;
+}
+
+.process-description{
+	color:dimgray;
+	font-size: 12px;
+	margin: 20px 15px 25px;
+}
+
+.process-thumbnail:hover{
+	background: silver;
+	text-decoration: none;
+}
+
+.process-thumbnail:hover .process-title{
+	color:#FFF;
+}
+
+.process-list{
+	list-style-type: none;
+	padding: 0;
+}
+
+.process-item{
+	background: whitesmoke;
+	margin-bottom: 10px;
+	line-height: 37px;
+}
+
+.process-plus{
+	color:dimgray;
+	background-color: silver;
+	line-height: 37px;
+	padding-left: 13px;
+	padding-right: 13px;
+}
+
+.process-name{
+	margin-left: 20px;
+}
+
 /*footer*/
 footer{
 	color:whitesmoke;
@@ -83,9 +132,6 @@ footer p{
 	color: dimgray;
 }
 
-li{
-	display: inline-block;
-}
 
 .social-icon{
 	font-size: 24px;
