@@ -16,9 +16,22 @@ body{
 	color: #7f8b95;
 }
 
+.navbar-nav{
+	float:right;
+}
+
 .navbar-brand{
 	position: relative;
 	top:-14px;
+}
+
+li.active a{
+	background-color: #323e4e !important;
+	color:#FFF !important;
+}
+
+.navbar a:hover{
+	color:whitesmoke !important;
 }
 
 /*features*/
@@ -113,6 +126,29 @@ body{
 	margin-left: 20px;
 }
 
+/*stay informed*/
+
+.informed{
+	background-color: whitesmoke;
+	margin-left: 0;
+	margin-right: 0;
+}
+
+.informed-hook{
+	margin: 30px;
+}
+
+.informed .col-md-2{
+	margin-top: 30px;
+}
+.informed-input{
+	height: 45px;
+}
+.btn-informed{
+	background: tomato;
+	height: 45px;
+	color: #FFF;
+}
 /*footer*/
 footer{
 	color:whitesmoke;
